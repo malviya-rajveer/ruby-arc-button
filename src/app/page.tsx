@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen items-center justify-center  bg-zinc-50 font-sans dark:bg-black">
       <Brand_button></Brand_button>
       <div className="dark:text-white text-black/60 pt-4 text-[20px]">
-        Crafted with care
+        Crafted with care.
       </div>
 
       <div className="dark:text-neutral-200 text-black/60 pt-2 text-[10px]">
