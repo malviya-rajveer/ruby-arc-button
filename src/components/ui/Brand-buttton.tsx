@@ -16,8 +16,8 @@ export const Brand_button = () => {
       <div
         className={cn(
           "absolute flex items-center  overflow-hidden h-9 w-29 rounded-2xl font-sans  z-10 text-[12.5px]",
-          "bg-linear-to-b  from-white to-neutral-100 text-black",
-          "dark:bg-linear-to-b dark:from-neutral-700 dark:to-neutral-900 dark:text-white"
+          "bg-linear-to-b  from-white to-neutral-200/99 text-black",
+          "dark:bg-linear-to-b dark:from-neutral-700 dark:to-neutral-950 dark:text-white"
         )}
       >
         <LiquidMetal
