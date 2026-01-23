@@ -17,13 +17,16 @@ export default function Home() {
       </div>
       <button
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-        className="relative flex justify-center mt-5 text-white"
+        className="relative cursor-pointer flex justify-center mt-5 text-white"
       >
         <IconMoon
-          size={23}
-          className="absolute  scale-100 rotate-0 dark:scale-0 dark:rotate-40 transition-transform duration-175 dark:text-white text-neutral-600"
+          size={22}
+          className="absolute  scale-100 rotate-0 dark:scale-0 dark:rotate-40 transition-transform duration-175 dark:text-white text-neutral-500"
         ></IconMoon>
-        <IconSun className="absolute rotate-45 dark:rotate-0 scale-0 dark:scale-100  transition-transform duration-175 dark:text-white text-neutral-600"></IconSun>
+        <IconSun
+          size={23}
+          className="absolute rotate-45 dark:rotate-0 scale-0 dark:scale-100  transition-transform duration-175 dark:text-neutral-300 text-neutral-600"
+        ></IconSun>
       </button>
     </div>
   );
