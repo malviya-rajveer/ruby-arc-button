@@ -11,7 +11,7 @@ export const Brand_button = () => {
       whileTap={{
         scale: 0.97,
       }}
-      className="h-10  cursor-pointer z-0 w-30 flex items-center rounded-2xl justify-center  relative overflow-hidden"
+      className="h-10  cursor-pointer z-0 w-30 flex items-center rounded-[18px] justify-center  relative overflow-hidden"
     >
       <div
         className={cn(
